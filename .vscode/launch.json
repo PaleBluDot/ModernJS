@@ -7,9 +7,25 @@
 		{
 			"type": "chrome",
 			"request": "launch",
-			"name": "Launch Chrome against localhost",
-			"url": "http://localhost:8080",
+			"name": "Chrome Live Server",
+			"url": "http://127.0.0.1:5500/Code/8%20-%20API%20Project/Github%20Finder/",
 			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Brave",
+			"runtimeExecutable": "C:/Program Files (x86)/BraveSoftware/Brave-Browser/Application/brave.exe",
+			"url": "http://127.0.0.1:5500/Code/8%20-%20API%20Project/Github%20Finder/",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Brave Dev",
+			"runtimeExecutable": "C:/Program Files (x86)/BraveSoftware/Brave-Browser-Dev/Application/brave.exe",
+			"url": "http://127.0.0.1:5500/Code/8%20-%20API%20Project/Github%20Finder/",
+			"webRoot": ""
 		}
 	]
 }
